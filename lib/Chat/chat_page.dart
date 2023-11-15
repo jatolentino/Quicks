@@ -41,7 +41,7 @@ class _ChatBodyState extends State<ChatBody> {
               style: TextStyle(color: secondaryColor),
             ),
             onTap: () =>
-                Navigator.pushNamed(context, PageRoutes.userProfilePage),
+                // Navigator.pushNamed(context, PageRoutes.userProfilePage),
           ),
         ),
         body: FadedSlideAnimation(
@@ -66,7 +66,7 @@ class _ChatBodyState extends State<ChatBody> {
                       color: mainColor,
                     ),
                     onPressed: () {
-                      _messageController.clear();
+                      // _messageController.clear();
                     },
                   ),
                   counter: null,
